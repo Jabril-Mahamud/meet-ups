@@ -1,4 +1,5 @@
 // app/events/[id]/page.tsx
+import RSVPButton from "@/components/RSVPButton";
 import { createClient } from "@/utils/supabase/server";
 import { notFound } from 'next/navigation';
 
